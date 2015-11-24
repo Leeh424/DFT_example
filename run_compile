@@ -1,0 +1,4 @@
+#!/bin/csh
+setenv MGC_HOME /cadappl/ictools/mentor_dft/2015.3/tessent_software_tree
+setenv LM_LICENSE_FILE :1717@vanginkel.ies.mentorg.com:1717@liszt.ger.mentorg.com:1717@wv-lic-03.wv.mentorg.com:1717@wv-lic-01.wv.mentorg.com:1717@wv-lic-02.wv.mentorg.com:1717@wv-lic-04.wv.mentorg.com:1717@wv-lic-05.wv.mentorg.com:1718@wv-lic-snpslmd.wv.mentorg.com
+$MGC_HOME/bin/tessent -shell -dofile compile.dofile

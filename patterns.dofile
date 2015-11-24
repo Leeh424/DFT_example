@@ -1,3 +1,4 @@
+set_dofile_abort on
 set_context patterns -scan
 read_cell_library adk.atpg
 read_verilog edt_gate_noscan_nocore_lockup.v

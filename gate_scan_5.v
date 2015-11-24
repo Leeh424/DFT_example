@@ -7,7 +7,7 @@ input   [11:0] inst ;
 output  wwe , fwe , zwe , cwe , bdpol , option , tris ;
 output  [1:0] aluasel ;
 output  [1:0] alubsel ;
-output  [3:0] aluop 
+output  [3:0] aluop ;
   wire n1232 , n1205 , n1229 , n1227 , n1228 , n1222 , n1224 , n1225 , n1220 , 
        n1215 , n1216 , n1214 , n1207 , n1206 , n1197 , n1199 , n1198 , n1194 , 
        n1191 , n1186 , n1183 , n1182 , n1181 , n1176 , n1178 , n1172 , n1169 , 

@@ -1,3 +1,3 @@
 #!/bin/csh
-setenv MGC_HOME /acdappl/ictools/mentor_dft/2015.3/tessent_software_tree
+setenv MGC_HOME /cadappl/ictools/mentor_dft/2015.3/tessent_software_tree
 $MGC_HOME/bin/tessent -shell -dofile patterns.dofile

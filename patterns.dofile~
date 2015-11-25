@@ -9,5 +9,5 @@ set_system_mode ana
 system printf  "25," >> coverage.cvs
 system printf "40,"  >> coverage.cvs
 system printf "60," >> coverage.cvs
-//exit -d
+exit -d
 

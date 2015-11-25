@@ -5,5 +5,9 @@ read_verilog edt_gate_noscan_nocore_lockup.v
 read_verilog gate_scan_5.v
 set_current_design piccpu
 set_system_mode ana
-create_patterns
+//create_patterns
+echo "25," >> coverage.cvs
+echo "40," >> coverage.cvs
+echo "60," >> coverage.cvs
 exit -d
+

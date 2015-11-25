@@ -6,8 +6,9 @@ read_verilog gate_scan_5.v
 set_current_design piccpu
 set_system_mode ana
 //create_patterns
-system printf  "YVALUE=65" > coverage2.cvs
+system printf  "YVALUE=" > coverage2.cvs
+system shuf -i 1-100 -n 1 >> coverage2.cvs
 //system printf "40,"  >> coverage2.cvs
 //system printf "60," >> coverage2.cvs
-exit -d
+//exit -d
 

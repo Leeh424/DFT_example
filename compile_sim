@@ -1,0 +1,6 @@
+#!/bin/csh
+setenv MODELSIM_HOME /deh/data/cadappl/ictools/modelsim/10.1d/install/modeltech
+setenv LM_LICENSE_FILE :1717@vanginkel.ies.mentorg.com:1717@liszt.ger.mentorg.com:1717@wv-lic-03.wv.mentorg.com:1717@wv-lic-01.wv.mentorg.com:1717@wv-lic-02.wv.mentorg.com:1717@wv-lic-04.wv.mentorg.com:1717@wvlic-05.wv.mentorg.com:1718@wv-licsnpslmd.wv.mentorg.com
+$MODELSIM_HOME/bin/vlib work
+$MODELSIM_HOME/bin/vlog *.v
+$MODELSIM_HOME/bin/vsim +nowarnTSCALE -c -do "run -all"  edt_top_blockB_v_ctl

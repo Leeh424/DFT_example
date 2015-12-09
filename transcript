@@ -1,0 +1,63 @@
+# vsim +nowarnTSCALE -do {run -all} -c edt_top_blockB_v_ctl 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE 10.1d Nov  1 2012 Linux 2.6.32-220.el6.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.edt_top_blockB_v_ctl(fast)
+# Loading work.buf04(fast)
+# Loading work.inv04(fast)
+# Loading work.inv02(fast)
+# Loading work.inv01(fast)
+# Loading work.and02(fast)
+# Loading work.and04(fast)
+# Loading work.or02(fast)
+# Loading work.buf02(fast)
+# Loading work.nand04(fast)
+# Loading work.nand02(fast)
+# Loading work.nor02(fast)
+# Loading work.ao221(fast)
+# Loading work.nand03(fast)
+# Loading work.aoi21(fast)
+# Loading work.aoi22(fast)
+# Loading work.buf12(fast)
+# Loading work.buf08(fast)
+# Loading work.buf16(fast)
+# Loading work.ao22(fast)
+# Loading work.or04(fast)
+# Loading work.mux21(fast)
+# Loading work.xor2(fast)
+# Loading work.xnor2(fast)
+# Loading work.or03(fast)
+# Loading work.inv08(fast)
+# Loading work.ao21(fast)
+# Loading work.oai22(fast)
+# Loading work.sff(fast)
+# Loading work.ao32(fast)
+# Loading work.oai21(fast)
+# Loading work.sff(fast__1)
+# Loading work.hadd1(fast)
+# Loading work.nor03(fast)
+# Loading work.and03(fast)
+# Loading work.inv16(fast)
+# Loading work.dff(fast)
+# Loading work.nor02_2x(fast)
+# Loading work.nor02ii(fast)
+# Loading work.mux21_ni(fast)
+# Loading work.latch(fast)
+# run -all 
+# Loading blockB.v.0.vec
+# 
+# Begin chain test
+# 
+# End chain test
+# 
+# No error between simulated and expected patterns
+# 
+# ** Note: $finish    : blockB.v(2149)
+#    Time: 78902 ns  Iteration: 0  Instance: /edt_top_blockB_v_ctl

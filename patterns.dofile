@@ -3,7 +3,7 @@ set_context patterns -scan
 read_cell_library adk.atpg
 read_verilog edt_gate_noscan_nocore_lockup.v
 read_verilog gate_scan_5.v
-set_current_design piccpu
+set_current_design piccpua
 set_system_mode ana
 //create_patterns
 system printf  "YVALUE=" > coverage2.cvs
@@ -12,5 +12,5 @@ system printf  "YVALUE=" > D5_DRC.cvs
 system shuf -i 10-20 -n 1 >> D5_DRC.cvs
 //system printf "40,"  >> coverage2.cvs
 //system printf "60," >> coverage2.cvs
-//exit -d
+exit -d
 

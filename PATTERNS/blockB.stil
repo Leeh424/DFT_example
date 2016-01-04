@@ -1,0 +1,101 @@
+STIL 1.0 {
+  Design 2005;
+}
+
+Header  {
+Title "edt_top_blockB_stil" ;
+  Date     "Mon Jan  4 13:42:43 2016" ;
+  Source  "Tessent Shell  2015.3" ;
+  History  {
+    Ann {*  Fault          : STUCK *}
+    Ann {*  Coverage       : 98.69(TC) 94.53(FC) *}
+    Ann {*  Begin_Verify_Section  *}
+    Ann {*    format            = STIL  *}
+    Ann {*    serial_flag       = OFF  *}
+    Ann {*    test_set_type     = EDT_ALL_TEST  *}
+    Ann {*    pad_value         = 0  *}
+    Ann {*    pattern_begin     = 0  *}
+    Ann {*    pattern_end       = 248  *}
+    Ann {*    one_setup         = ON  *}
+    Ann {*    no_initialization = OFF  *}
+    Ann {*    pattern_checksum  = 278945  *}
+    Ann {*    edt_external      = ON  *}
+    Ann {*  End_Verify_Section  *}
+  }
+}
+
+Signals {
+  clk In; ramclk In; reset In; enable In; pdata[11] In; pdata[10] In; pdata[9] In; pdata[8] In; pdata[7] In; pdata[6] In; pdata[5] In; pdata[4] In; pdata[3] In; pdata[2] In; pdata[1] In; pdata[0] In; portain[7] In; portain[6] In; portain[5] In; portain[4] In; portain[3] In; portain[2] In; portain[1] In; portain[0] In; expdin[7] In; expdin[6] In; expdin[5] In; expdin[4] In; expdin[3] In; expdin[2] In; expdin[1] In; expdin[0] In; scan_en In; edt_clock In; edt_update In; edt_bypass In; edt_channels_in1 In; 
+  paddr[10] Out; paddr[9] Out; paddr[8] Out; paddr[7] Out; paddr[6] Out; paddr[5] Out; paddr[4] Out; paddr[3] Out; paddr[2] Out; paddr[1] Out; paddr[0] Out; portbout[7] Out; portbout[6] Out; portbout[5] Out; portbout[4] Out; portbout[3] Out; portbout[2] Out; portbout[1] Out; portbout[0] Out; portcout[7] Out; portcout[6] Out; portcout[5] Out; portcout[4] Out; portcout[3] Out; portcout[2] Out; 
+  portcout[1] Out; portcout[0] Out; expdout[7] Out; expdout[6] Out; expdout[5] Out; expdout[4] Out; expdout[3] Out; expdout[2] Out; expdout[1] Out; expdout[0] Out; expaddr[6] Out; expaddr[5] Out; expaddr[4] Out; expaddr[3] Out; expaddr[2] Out; expaddr[1] Out; expaddr[0] Out; expread Out; expwrite Out; debugw[7] Out; debugw[6] Out; debugw[5] Out; debugw[4] Out; debugw[3] Out; debugw[2] Out; debugw[1] Out; debugw[0] Out; debugpc[10] Out; debugpc[9] Out; debugpc[8] Out; debugpc[7] Out; debugpc[6] Out; debugpc[5] Out; debugpc[4] Out; debugpc[3] Out; debugpc[2] Out; debugpc[1] Out; debugpc[0] Out; debuginst[11] Out; debuginst[10] Out; debuginst[9] Out; debuginst[8] Out; debuginst[7] Out; debuginst[6] Out; debuginst[5] Out; debuginst[4] Out; debuginst[3] Out; debuginst[2] Out; debuginst[1] Out; debuginst[0] Out; debugstatus[7] Out; debugstatus[6] Out; debugstatus[5] Out; debugstatus[4] Out; debugstatus[3] Out; 
+  debugstatus[2] Out; debugstatus[1] Out; debugstatus[0] Out; q1 Out; q2 Out; q3 Out; q4 Out; edt_channels_out1 Out; 
+  
+}
+
+SignalGroups {
+  PI_grp_0 = 'ramclk + reset + enable + pdata[11] + pdata[10] + pdata[9] + pdata[8] + pdata[7] + pdata[6] + pdata[5] + pdata[4] + pdata[3] + pdata[2] + pdata[1] + pdata[0] + portain[7] + portain[6] + portain[5] + portain[4] + portain[3] + portain[2] + portain[1] + portain[0] + expdin[7] + expdin[6] + expdin[5] + expdin[4] + expdin[3] + expdin[2] + expdin[1] + expdin[0] + scan_en + edt_update + edt_bypass + edt_channels_in1';
+  _po_ = 'paddr[10] + paddr[9] + paddr[8] + paddr[7] + paddr[6] + paddr[5] + paddr[4] + paddr[3] + paddr[2] + paddr[1] + paddr[0] + portbout[7] + portbout[6] + portbout[5] + portbout[4] + portbout[3] + portbout[2] + portbout[1] + portbout[0] + portcout[7] + portcout[6] + portcout[5] + portcout[4] + portcout[3] + portcout[2] + portcout[1] + portcout[0] + expdout[7] + expdout[6] + expdout[5] + expdout[4] + expdout[3] + expdout[2] + expdout[1] + expdout[0] + expaddr[6] + expaddr[5] + expaddr[4] + expaddr[3] + expaddr[2] + expaddr[1] + expaddr[0] + expread + expwrite + debugw[7] + debugw[6] + debugw[5] + debugw[4] + debugw[3] + debugw[2] + debugw[1] + debugw[0] + debugpc[10] + debugpc[9] + debugpc[8] + debugpc[7] + debugpc[6] + debugpc[5] + debugpc[4] + debugpc[3] + debugpc[2] + debugpc[1] + debugpc[0] + debuginst[11] + debuginst[10] + debuginst[9] + debuginst[8] + debuginst[7] + 
+       debuginst[6] + debuginst[5] + debuginst[4] + debuginst[3] + debuginst[2] + debuginst[1] + debuginst[0] + debugstatus[7] + debugstatus[6] + debugstatus[5] + debugstatus[4] + debugstatus[3] + debugstatus[2] + debugstatus[1] + debugstatus[0] + q1 + q2 + q3 + q4 + edt_channels_out1';
+  PI_grp_1 = 'clk';
+  PI_grp_2 = 'edt_clock';
+  "_edt_channel1_edt_channels_in1_" = 'edt_channels_in1' {ScanIn 44;}
+  "_edt_channel1_edt_channels_out1_" = 'edt_channels_out1' {ScanOut 44;}
+}
+
+Timing STUCK_timing {
+  WaveformTable tset_gen_tp1  {
+    Period '100ns' ;
+    Waveforms  {
+      PI_grp_0  { 01 { '0ns' D/U; }}
+      PI_grp_1  { 01 { '0ns' D; '40ns' D/U; '50ns' D;}}
+      PI_grp_2  { 01 { '0ns' D; '40ns' D/U; '50ns' D;}}
+      _po_ { LHXT { '0ns' X; '10ns' l/h/X/t; '40ns' X;}}
+    }
+  }
+}
+
+ScanStructures  {
+  ScanChain edt_channel1  {
+      ScanLength 44;
+      ScanInversion 0;
+      ScanIn edt_channels_in1;
+      ScanOut edt_channels_out1;
+      ScanMasterClock clk edt_clock;
+  }
+}
+
+Procedures {
+  "test_setup" { 
+    W tset_gen_tp1;
+    C { _po_ = \r88 X ;     }
+    V { clk = 0; edt_clock = 0;     }
+  }
+}
+
+MacroDefs {
+  "capture" { 
+    W tset_gen_tp1;
+    C { _po_ = \r88 X ;     }
+    V { PI_grp_0 = %; _po_ = %; PI_grp_1 = %; PI_grp_2 = %;     }
+  }
+  "load_unload_edt_grp1" { 
+    W tset_gen_tp1;
+    C { _po_ = \r88 X ; clk = 0; edt_clock = 0; "_edt_channel1_edt_channels_out1_" = X;     }
+    V { edt_bypass = 0; edt_update = 1; scan_en = 1; edt_clock = 1; clk = 0;     }
+    C { "_edt_channel1_edt_channels_in1_" = 0;     }
+    Shift {     V { edt_update = 0; "_edt_channel1_edt_channels_in1_" = #; "_edt_channel1_edt_channels_out1_" = #; clk = 1; edt_clock = 1;     }
+    }
+  }
+}
+
+PatternBurst scanpats {
+  PatList { scan_test;  }
+}
+
+PatternExec scanexec {
+  Timing STUCK_timing;
+  PatternBurst scanpats;
+}
+
+
+Include "blockB.stil.pat" IfNeed Pattern;

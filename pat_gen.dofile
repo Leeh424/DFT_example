@@ -45,7 +45,9 @@ set_mask_decoder_connection -xor_decoder chain5  1 1
 
 set_system_mode ana
 create_patterns
-save patterns blockB.v -verilog -parallel -replace
+save patterns SIM/blockB.v -verilog -parallel -replace
+save patterns PATTERNS/blockB.stil -stil2005 -parallel -replace
+
 
 exit -d
 

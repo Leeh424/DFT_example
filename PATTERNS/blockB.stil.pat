@@ -4,7 +4,7 @@ STIL 1.0 {
 
 // STIL format test patterns produced by Tessent Shell 2015.3
 // Filename       : blockB.stil.pat
-// Date           : Tue Jan  5 11:54:03 2016
+// Date           : Tue Jan  5 11:54:44 2016
 //
 
 Pattern scan_test  {

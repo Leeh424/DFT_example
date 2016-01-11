@@ -44,6 +44,7 @@ set_mask_decoder_connection -xor_decoder chain4  1 2
 set_mask_decoder_connection -xor_decoder chain5  1 1
 
 set_system_mode ana
+report_drc_rules -summary
 create_patterns
 //system printf  "YVALUE=" > coverage2.cvs
 //system shuf -i 95-99 -n 1 >> coverage2.cvs
